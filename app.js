@@ -49,11 +49,9 @@ app.get('/apps', (req, res) => {
 
 });
 
-app.listen(8000, () => {
-  console.log('Server started on PORT 8000');
-});
 
-module.exports = app;;
+
+module.exports = app;
 
 //user sorts and filters by URL
 // http://localhost:8000/apps?genres=arcade (or whichever genre from list above)
